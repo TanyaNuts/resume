@@ -1,1 +1,1 @@
-!function(){alert("It works")}(this);
+!function(){}(this);

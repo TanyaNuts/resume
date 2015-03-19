@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  background: url(../img/signin-bg.jpg);
+  background-size: cover;
+  background-color: #383636; }
+  body .signed {
+    background-color: #fff;
+    height: 100vh; }
+    body .signed a.navbar-brand {
+      margin-top: 8px; }
+    body .signed .list {
+      border-right: 1px solid #ccc; }
+      body .signed .list ul {
+        list-style: none;
+        padding: 0; }
+        body .signed .list ul li {
+          background-color: #fff;
+          border-radius: 5px;
+          padding: 1em;
+          cursor: pointer;
+          webkit-transition: background-color 0.3s ease-out;
+          transition: background-color 0.3s ease-out; }
+          body .signed .list ul li:hover {
+            background-color: #eee;
+            webkit-transition: background-color 0.3s ease-in;
+            transition: background-color 0.3s ease-in; }
+          body .signed .list ul li img {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px; }
+          body .signed .list ul li span.title {
+            margin-left: 1.5em;
+            color: #337ab7; }
+  body .signin {
+    margin-top: 30vh; }
+    body .signin h1 {
+      text-align: center;
+      font-weight: 700;
+      color: #444; }
+    body .signin .signin-access-code, body .signin .signin-btn {
+      margin-top: 1.5em; }
+    body .signin input {
+      height: 3em; }

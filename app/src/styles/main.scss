@@ -1,0 +1,76 @@
+body {
+	height: 100vh;
+	
+	background: url(../img/signin-bg.jpg);
+	background-size: cover;
+	background-color: #383636;
+
+	.signed {
+
+		background-color: #fff;
+		height: 100vh;
+
+		a.navbar-brand {
+			margin-top: 8px;
+		} 	
+
+		.list {
+
+			border-right: 1px solid #ccc;
+
+			ul {
+
+				list-style: none;
+				padding: 0;
+
+				li {
+
+					background-color: #fff;
+					border-radius: 5px;
+					padding: 1em;
+					cursor: pointer;
+					webkit-transition: background-color 0.3s ease-out;
+					transition: background-color 0.3s ease-out;
+
+					&:hover {
+						background-color: #eee;
+						webkit-transition: background-color 0.3s ease-in;
+						transition: background-color 0.3s ease-in;
+					}
+
+					img {
+						width: 60px;
+						height: 60px;
+						border-radius: 30px;
+					}
+
+					span.title {
+						margin-left: 1.5em;
+						color: #337ab7;
+					}
+				}
+			}
+		}
+	}
+
+	.signin {
+
+		margin-top: 30vh;
+
+		h1 {
+			text-align: center;
+			font-weight: 700;
+			color: #444;
+		}
+
+		.signin-access-code, .signin-btn {
+			margin-top: 1.5em;
+		}
+
+		input {
+			height: 3em;
+		}
+	}
+
+
+}
