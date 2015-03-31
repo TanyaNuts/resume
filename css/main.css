@@ -39,7 +39,8 @@ body {
             color: #337ab7; }
     body .signed .resume {
       height: 89vh;
-      overflow-y: scroll; }
+      overflow-y: scroll;
+      display: none; }
       body .signed .resume h1 {
         text-transform: uppercase;
         text-align: center;
