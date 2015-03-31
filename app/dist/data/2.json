@@ -1,7 +1,7 @@
 {
 	"name": "Джон",
 	"surname": "Резиг",
-	"photo": "../img/users/full/2.jpg",
+	"photo": "./img/users/full/2.jpg",
 	"about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda perspiciatis maxime eaque rem quae ullam obcaecati, incidunt praesentium, beatae provident dignissimos cumque delectus, tempore ex voluptates. Doloribus, voluptatem tempore suscipit.",
 	"job": "JavaScript Developer",
 	"main": {
@@ -62,12 +62,28 @@
 	],
 	"skills": [
 		{
-			"JavaScript": 5,
-			"HTML": 4,
-			"CSS": 4,
-			"Node.js": 4,
-			"Adobe Photoshop": 4,
-			"Linux": 3
+			"title" : "JavaScript",
+			"value": 5
+		},
+		{
+			"title": "HTML",
+			"value": 4
+		},
+		{
+			"title": "CSS",
+			"value": 4
+		},
+		{
+			"title": "Node.js",
+			"value": 4
+		},
+		{
+			"title": "Adobe Photoshop",
+			"value": 4
+		},
+		{
+			"title": "Linux",
+			"value": 3
 		}
 	],
 	"education": [

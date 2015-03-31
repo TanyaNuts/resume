@@ -4,6 +4,7 @@ var gulp = require('gulp'),
 	uglify = require('gulp-uglify'),
 	lr = require('tiny-lr');
 	livereload = require('gulp-livereload'),
+	connect = require('gulp-connect'),
 	server = lr();
 
 gulp.task('styles', function () {
@@ -11,26 +12,38 @@ gulp.task('styles', function () {
 		.pipe(sass())
 		.pipe(concat('main.css'))
 		.pipe(gulp.dest('./app/dist/css'))
-		.pipe(livereload(server));
+		.pipe(connect.reload());
+});
+
+gulp.task('server', function () {
+	connect.server({
+		root: 'app',
+		livereload: true,
+		port: 1337
+	});
 });
 
 gulp.task('views', function () {
 	gulp.src('./app/src/views/*.html')
 		.pipe(gulp.dest('./app/dist'))
-		.pipe(livereload(server));
+		.pipe(connect.reload());
 });
 
 gulp.task('js', function () {
+	//gulp.src('./app/src/js/*.js')
+	//	.pipe(uglify())
+	//	.pipe(gulp.dest('./app/dist/js'))
+	//	.pipe(connect.reload());
+
 	gulp.src('./app/src/js/*.js')
-		.pipe(uglify())
 		.pipe(gulp.dest('./app/dist/js'))
-		.pipe(livereload(server));
+		.pipe(connect.reload());
 });
 
 gulp.task('images', function () {
 	gulp.src('./app/src/img/**/*.*')
 		.pipe(gulp.dest('./app/dist/img'))
-		.pipe(livereload(server));
+		.pipe(connect.reload());
 });
 
 gulp.task('lr-server', function() {  
@@ -39,7 +52,7 @@ gulp.task('lr-server', function() {
         	return console.log(err);
         }
     });
-})
+});
 
 gulp.task('watch', function () {
 	gulp.watch('./app/src/styles/*.scss', ['styles']);
@@ -48,4 +61,4 @@ gulp.task('watch', function () {
 	gulp.watch('./app/src/img/**/*.*', ['images']);
 });
 
-gulp.task('default', ['lr-server', 'styles', 'views', 'js', 'images', 'watch']);
+gulp.task('default', ['server', 'styles', 'views', 'js', 'images', 'watch']);
