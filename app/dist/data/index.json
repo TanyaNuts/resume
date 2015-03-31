@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Нихолас",
+		"surname": "Закас",
+		"data": "1.json",
+		"photo": "../img/1.jpg"
+	},
+	{
+		"name": "Джон",
+		"surname": "Резиг",
+		"data": "2.json",
+		"photo": "../img/2.jpg"
+	}
+]
