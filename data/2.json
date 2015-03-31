@@ -1,0 +1,100 @@
+{
+	"name": "Джон",
+	"surname": "Резиг",
+	"photo": "../img/users/full/2.jpg",
+	"about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda perspiciatis maxime eaque rem quae ullam obcaecati, incidunt praesentium, beatae provident dignissimos cumque delectus, tempore ex voluptates. Doloribus, voluptatem tempore suscipit.",
+	"job": "JavaScript Developer",
+	"main": {
+		"dateOfBirth": {
+			"day": 8,
+			"month": "мая",
+			"year": 1984
+		},
+		"phone": "+972 456 45 32",
+		"email": "resig.john@mozilla.org",
+		"address": "Israel, Haifa, Hankin Rd 18",
+		"socials": [
+			{
+				"social": "Twitter",
+				"title": "@jeresig",
+				"link": "https://twitter.com/jeresig"
+			},
+			{
+				"social": "LinkedIn",
+				"title": "jeresig",
+				"link": "https://www.linkedin.com/in/jeresig"	
+			}
+		]
+	},
+	"experience": [
+		{
+			"title": "Valve",
+			"yearOfStart": 2015,
+			"place": {
+				"country": "США",
+				"city": "Киркленд"
+			},
+			"position": "Главный разработчик интерфейсов",
+			"description": "Основной разработчик интерфейсов в компании Valve. Занимаюсь поддерживанием веб-сервисов компании. Являюсь членом команды по портированию еще не вышедшей Half-Life 3 на WebGL."
+		},
+		{
+			"title": "Mozilla Corp",
+			"yearOfStart": 2009,
+			"yearOfEnd": 2015,
+			"place": {
+				"country": "США",
+				"city": "Маунтин-Вью"
+			},
+			"position": "JavaScript-евангелист",
+			"description": "Вдохновлял сотрудников Mozilla Corp. использовать JavaScript в разработке чуть менее чем полностью"
+		},
+		{
+			"title": "ООО Яндекс Беларусь",
+			"yearOfStart": 2003,
+			"yearOfEnd": 2008,
+			"place": {
+				"country": "Беларусь",
+				"city": "Минск"
+			},
+			"position": "Разработчик интерфейсов",
+			"description": "Занимался разработкой интерфейсов для сервиса Яндекс.Музыка. Участвовал в разработке шаблонизатора BEMHTML"
+		}
+	],
+	"skills": [
+		{
+			"JavaScript": 5,
+			"HTML": 4,
+			"CSS": 4,
+			"Node.js": 4,
+			"Adobe Photoshop": 4,
+			"Linux": 3
+		}
+	],
+	"education": [
+		{
+			"title": "БГУ",
+			"yearOfStart": 2001,
+			"yearOfEnd": 2003,
+			"place": {
+				"country": "Беларусь",
+				"city": "Минск"
+			},
+			"speciality": "Программные методы и технологии",
+			"qualification": "Аналитик программных систем",
+			"diploma": "Автоматизация администрирования высоконагруженных систем"
+		},
+		{
+			"title": "СПбГУ",
+			"yearOfStart": 1997,
+			"yearOfEnd": 2001,
+			"place": {
+				"country": "Россия",
+				"city": "Санкт-Петербург"
+			},
+			"speciality": "Компьютерные науки",
+			"qualification": "Системный аналитик",
+			"diploma": "Разработка высоконагруженных интернет-сервисов"	
+		}
+	],
+	"additional": "Высоко развиты коммуникативные способности. Отличный командный работник. Есть опыт управления персоналом. Увлекаюсь коллекционированием мадагаскарских тараканов. Когда скучно, могу взять их с собой на работу (на случай, чтобы коллеги не пугались)."
+}

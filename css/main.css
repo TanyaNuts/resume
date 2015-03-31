@@ -1,0 +1,154 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: url(../img/signin-bg.jpg);
+  background-size: cover;
+  background-color: #383636; }
+  body .signed {
+    background-color: #fff;
+    height: 100vh; }
+    body .signed nav {
+      height: 11vh;
+      margin-bottom: 0; }
+    body .signed a.navbar-brand {
+      margin-top: 1.5vh; }
+    body .signed .list {
+      border-right: 1px solid #ccc;
+      height: 89vh;
+      overflow-y: scroll; }
+      body .signed .list ul {
+        list-style: none;
+        padding: 0; }
+        body .signed .list ul li {
+          background-color: #fff;
+          border-radius: 5px;
+          padding: 1em;
+          cursor: pointer;
+          webkit-transition: background-color 0.3s ease-out;
+          transition: background-color 0.3s ease-out; }
+          body .signed .list ul li:hover {
+            background-color: #eee;
+            webkit-transition: background-color 0.3s ease-in;
+            transition: background-color 0.3s ease-in; }
+          body .signed .list ul li img {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px; }
+          body .signed .list ul li span.title {
+            margin-left: 1.5em;
+            color: #337ab7; }
+    body .signed .resume {
+      height: 89vh;
+      overflow-y: scroll; }
+      body .signed .resume h1 {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 1em;
+        -webkit-user-select: none;
+        /* Chrome all / Safari all */
+        -moz-user-select: none;
+        /* Firefox all */
+        -ms-user-select: none; }
+      body .signed .resume .visit-card {
+        text-align: center;
+        margin-bottom: 2em;
+        -webkit-user-select: none;
+        /* Chrome all / Safari all */
+        -moz-user-select: none;
+        /* Firefox all */
+        -ms-user-select: none; }
+        body .signed .resume .visit-card .photo-wrapper {
+          text-align: center; }
+          body .signed .resume .visit-card .photo-wrapper .photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            border: 3px solid #337ab7;
+            cursor: pointer; }
+        body .signed .resume .visit-card .visit-description {
+          text-align: left;
+          margin-top: 2em; }
+          body .signed .resume .visit-card .visit-description h2.name {
+            font-weight: 700;
+            color: #337ab7; }
+          body .signed .resume .visit-card .visit-description h3.job {
+            font-size: 1.4em;
+            color: #666; }
+      body .signed .resume p {
+        line-height: 1.5em;
+        font-size: 1.1em;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto; }
+      body .signed .resume .resume-more h3 {
+        font-size: 1.4em;
+        color: #666;
+        font-weight: 700; }
+      body .signed .resume .resume-more .experience li {
+        margin: 1.5em 0; }
+      body .signed .resume .resume-more .experience .company {
+        font-size: 1.3em; }
+      body .signed .resume .resume-more .experience .place {
+        color: #337ab7;
+        display: block;
+        margin: 0.3em 0; }
+      body .signed .resume .resume-more .experience .time {
+        color: #666; }
+      body .signed .resume .resume-more .experience .job {
+        font-style: italic;
+        font-size: 1.3em;
+        display: block;
+        margin: 0.5em 0; }
+      body .signed .resume .resume-more .experience p {
+        width: 100%;
+        text-align: justify; }
+      body .signed .resume .resume-more .personal th, body .signed .resume .resume-more .personal td {
+        padding: 0.8em 1em; }
+      body .signed .resume .resume-more .personal td {
+        text-align: left; }
+      body .signed .resume .resume-more .skills {
+        margin-top: 1em; }
+        body .signed .resume .resume-more .skills table {
+          -webkit-user-select: none;
+          /* Chrome all / Safari all */
+          -moz-user-select: none;
+          /* Firefox all */
+          -ms-user-select: none; }
+          body .signed .resume .resume-more .skills table tr {
+            height: 2.7em; }
+          body .signed .resume .resume-more .skills table td, body .signed .resume .resume-more .skills table th {
+            padding: 0.8em 1em; }
+          body .signed .resume .resume-more .skills table .estimating {
+            height: 12px;
+            width: 72px; }
+            body .signed .resume .resume-more .skills table .estimating circle {
+              fill: #fff;
+              stroke-width: 1px;
+              stroke: #337ab7;
+              cursor: pointer; }
+            body .signed .resume .resume-more .skills table .estimating circle.filled {
+              fill: #337ab7; }
+      body .signed .resume .resume-more .education li {
+        margin-top: 1.5em; }
+        body .signed .resume .resume-more .education li .university {
+          font-size: 1.3em; }
+        body .signed .resume .resume-more .education li .time {
+          color: #666; }
+        body .signed .resume .resume-more .education li .place {
+          color: #337ab7;
+          display: block;
+          margin: 0.3em 0; }
+        body .signed .resume .resume-more .education li table td, body .signed .resume .resume-more .education li table th {
+          padding: 0.8em 1em; }
+      body .signed .resume .resume-more .additional-info {
+        margin-bottom: 2em; }
+  body .signin {
+    margin-top: 30vh; }
+    body .signin h1 {
+      text-align: center;
+      font-weight: 700;
+      color: #444; }
+    body .signin .signin-access-code, body .signin .signin-btn {
+      margin-top: 1.5em; }
+    body .signin input {
+      height: 3em; }
