@@ -1,6 +1,6 @@
-[
+﻿[
 	{
-		"name": "Нихолас",
+		"name": "Ни",
 		"surname": "Закас",
 		"data": "1.json",
 		"photo": "./img/users/1.jpg"
@@ -10,5 +10,11 @@
 		"surname": "Резиг",
 		"data": "2.json",
 		"photo": "./img/users/2.jpg"
+	},
+{
+		"name": "Татьяна",
+		"surname": "Орехова",
+		"data": "1.json",
+		"photo": "./img/users/tanyanuts.jpeg"
 	}
 ]

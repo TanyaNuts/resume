@@ -1,0 +1,75 @@
+﻿{
+	"name": "Татьяна",
+	"surname": "Орехова",
+	"photo": "./img/users/full/tanyanuts.jpeg",
+	"about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda perspiciatis maxime eaque rem quae ullam obcaecati, incidunt praesentium, beatae provident dignissimos cumque delectus, tempore ex voluptates. Doloribus, voluptatem tempore suscipit.",
+	"job": "JavaScript Developer",
+	"main": {
+		"dateOfBirth": {
+			"day": 20,
+			"month": "сентября",
+			"year": 1995
+		},
+		"phone": "0991866475",
+		"email": "to096540848@gmail.com",
+		"address": "Украина, Харьков улица Светлая д.7, кв.27",
+		"socials": [
+			{
+				"social": "Vkontakte",
+				"title": "Татьяна Орехова",
+				"link": "https://vk.com/id59026502"
+			}
+		]
+	},
+	"experience": [
+		{
+			"title": "Estate Invest ",
+			"yearOfStart": 2015,
+			"place": {
+				"country": "Украина",
+				"city": "Харьков"
+			},
+			"position": "Риэлтор",
+			"description": " Поиск квартиросъемщиков и арендодателей, заключение сделок между ними."
+		},
+		{
+			"title": "Парфюм",
+			"yearOfStart":июнь,2014 ,
+			"yearOfEnd": сентябрь,2014,
+			"place": {
+				"country": "Россия",
+				"city": "Москва"
+			},
+			"position": "продавец-консультант",
+			"description": "Консультации посетителей, продажа духов"
+		},
+		{
+			"title": "лофт "Новое место"",
+			"yearOfStart": ноябрь,2013,
+			"yearOfEnd": март, 2014,
+			"place": {
+				"country": "Украина",
+				"city": "Харьков"
+			},
+			"position": "Администратор",
+			"description": "Маркетенговые исследования,консультирование посетителей по вопросам, касающимся оказываемых услуг,встреча, проведение мероприятий, регистрация клиентов и гостей. "
+		}
+	],
+	
+	
+	"education": [
+		{
+			"title": "ХНУ им. В.Н.Каразина",
+			"yearOfStart": 2013,
+			"yearOfEnd": 2017,
+			"place": {
+				"country": "Украина",
+				"city": "Харьков"
+			},
+			"speciality": "Культурология"
+			
+		},
+		
+	],
+	"additional": "Курсы и тренинги: " Ораторское мастерсто", "Переговоры" тренинг-центр "Лидер" 2012, "Организация мероприятий от А до Я" "Два Товарища"(2013),Школа лидерства "Мост"(2015). Личные качества:коммуникабельность,навыки ведения переговоров с клиентами,умение организовывать людей для выполнения поставленных задач,умение согласованно работать в коллективе,инициативность,нацеленность на результат,трудолюбие,организаторские способности."
+}
